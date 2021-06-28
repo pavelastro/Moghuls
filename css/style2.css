@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#sliderbar {
+  position: absolute;
+
+  margin: 10px;
+  margin-top: 70px;
+  width: 140px;
+  background-color: #bca592;
+  padding: 10px 20px;
+  z-index: 99;
+  border: 2px solid #85766a;
+}
+.info {
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 7%;
+  width: 140px;
+  background-color: #bca592;
+  padding: 10px 20px;
+  z-index: 99;
+  border: 2px solid #85766a;
+}
+.marker {
+  background-image: url("../images/icon.png");
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+
+  cursor: pointer;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #863826;
+  text-align: center;
+  padding: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+li {
+  font: bolder;
+  font-family: monospace;
+  color: wheat;
+  font-size: x-large;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+span {
+  margin-left: 5px;
+  font-size: 16px;
+}
+#icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 5px;
+}
+.mapboxgl-popup {
+  max-width: 200px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+#logo{
+  z-index: 999; 
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset='utf-8' />
+    <title>Display a map</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.js'></script>
+     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.50.0/mapbox-gl.css' rel='stylesheet' />
+<link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+<div id='map'>
+  <ul>
+  <li>Accession and Battles of Mughal Empire</li>
+</ul>
+  <div class='session' id='sliderbar'>
+    <h1>Area conquered</h1>
+    <h2>Year: <label id='active-hour'>1530</label></h2>
+    <input id='slider' class='row' type='range' min='0' max='2' step='1' value='0' />
+  </div>
+<div class="info">
+  <img src="images/icon.png" alt="" id="icon">
+  <span>Battles Fought
+    <h1 style="font-size:66%;">First Battle of Panipat[1526]</h1>
+    <h1 style="font-size:70%;">Battle of Khanwa [1527]</h1>
+    <h1 style="font-size:70%;">Battle of Rajmahal [1576]</h1>
+    <h1 style="font-size:70%;">Battle of Saraighat [1671]</h1>
+    <h1 style="font-size:70%;">Battle of Chamkaur [1704]</h1>
+  </span>
+</div>
+</div>
+<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
